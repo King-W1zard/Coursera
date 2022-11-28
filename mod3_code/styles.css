@@ -1,23 +1,23 @@
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: #fff;
 	font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav{
-	background-color: #f6b319;
+	background-color: #fff;
 	border-radius: 0;
-	border: 0;
+	border: 3px solid #000;
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .navbar-brand h1 {
   font-family: 'Garamond', serif;
-  color: #557c3e;
+  color: #000;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -35,18 +35,21 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #000;
   text-align: center;
 }
+#nav-list:nth-child(3)  {
+  border-bottom:0;
+  }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #000;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle, .navnar-header .icon-bar {
-	border:1px solid #61122f;
+	border:1px solid #000;
 }
 
 .navbar-header button.navbar-toggle {
