@@ -5,27 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wonder Wizard's Bistro</title>
-   <style>
-    body {
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index3.html" class="pull-left">
+          </a>
+          <div class="navbar-brand">
+            <a href="index3.html"><h1>Wonder Wizard's Bistro</h1>
+            </a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+                     <li>
+                       <a href="#">
+                         <br class="hidden-xs"> Chicken</a>
+                     </li>
+                     <li>
+                       <a href="#">
+                         <br class="hidden-xs"> Beef</a>
+                     </li>
+                     <li>
+                       <a href="#">
+                         <br class="hidden-xs"> Sushi</a>
+                     </li>
+                   </ul>
+                 </div>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+                  <ul id="nav-list" class="nav navbar-nav navbar-right">
+                 </ul>
+               </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <h1>Menu</h1>
+      <div id="A">
+        <div id="A-content">
+          <h2>Chicken</h2>
+          <h4 style="background-color:powderblue;"> Deux Bannann fri nan pefeksyon avec pikliz. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo. Deux Bannann fri nan pefeksyon avec pikliz. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo.</h4>
+        </div>
+      </div>
+
+  </body> 
+
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="js/script.js"></script>
+</body>
+<style>
+body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #fff;
   font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav{
-  background-color: #f6b319;
+  background-color: #fff;
   border-radius: 0;
-  border: 0;
+  border: 3px solid #000;
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .navbar-brand h1 {
   font-family: 'Garamond', serif;
-  color: #557c3e;
+  color: #000;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -43,18 +103,21 @@
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #000;
   text-align: center;
 }
+#nav-list:nth-child(3)  {
+  border-bottom:0;
+}
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #000;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle, .navnar-header .icon-bar {
-  border:1px solid #61122f;
+  border:1px solid #000;
 }
 
 .navbar-header button.navbar-toggle {
@@ -196,78 +259,4 @@
   }
 
   </style>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&display=swap" rel="stylesheet" type= "text/css">
-  </head>
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index3.html" class="pull-left">
-          </a>
-          <div class="navbar-brand">
-            <a href="index3.html"><h1>Wonder Wizard's Bistro</h1>
-            </a>
-          </div>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div id="collapsable-nav" class="collapse navbar-collapse">
-                    <ul id="nav-list" class="nav navbar-nav navbar-right">
-                     <li>
-                       <a href="#">
-                         <br class="hidden-xs"> Chicken</a>
-                     </li>
-                     <li>
-                       <a href="#">
-                         <br class="hidden-xs"> Beef</a>
-                     </li>
-                     <li>
-                       <a href="#">
-                         <br class="hidden-xs"> Sushi</a>
-                     </li>
-                   </ul>
-                 </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <body>
-    <h1>Menu</h1>
-      <div id="A">
-        <div id="A-content">
-          <h2>Chicken</h2>
-          <h4 style="background-color:powderblue;"> Deux Bannann fri nan pefeksyon avec pikliz. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo. Deux Bannann fri nan pefeksyon avec pikliz. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo.</h4>
-        </div>
-      </div>
-
-      <div id="E">
-        <div id="E-content">
-          <h2>Beef</h2>
-          <h4 style="background-color:powderblue;"> Griot avec du riz blanc et sauce pois. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo.Deux Bannann fri nan pefeksyon avec pikliz. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo. </h4>
-        </div>
-      </div>
-
-      <div id="D">
-        <div id="D-content">
-          <h2>Sushi</h2>
-          <h4 style="background-color:powderblue;"> Pain Mais avec gateau chocolat. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo.Deux Bannann fri nan pefeksyon avec pikliz. Jiskaske kou a bezwen yon vulputate. Kòm yon pòtè, li pa pi gwo kamyon yo, pè nibh vle ansent, pa rale mas la nan mas la soti nan nibh. Aenean mete elit la venen, se pou li gen anpil sòs pou machin elit yo. </h4>
-        </div>
-      </div>
-
-  </body> 
-
-
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script type="js/script.js"></script>
-</body>
 </html>
